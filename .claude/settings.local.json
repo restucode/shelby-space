@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.shelby.xyz)",
+      "Bash(grep '\"\"version\"\"' \"e:/Yapping X/Akun 1/Shelby/shelby-space/node_modules/@shelby-protocol/sdk/package.json\")",
+      "Bash(node -e \"console.log\\(require\\(''e:/Yapping X/Akun 1/Shelby/shelby-space/node_modules/@shelby-protocol/sdk/package.json''\\).version\\)\")",
+      "WebFetch(domain:registry.npmjs.org)"
+    ]
+  }
+}
